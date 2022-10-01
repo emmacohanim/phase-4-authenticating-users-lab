@@ -10,7 +10,7 @@ class ArticlesController < ApplicationController
     article = Article.find(params[:id])
     render json: article
   end
-
+  
   private
 
   def record_not_found
